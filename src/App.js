@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import { useState, useEffect } from 'react'
 
 function App() {
+const [text, setText] = useState("");
+
+const handleChange = (event) => {
+  setText(event.target.value)
+}
+
+
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         <input onChange={handleChange} value={text} />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Esto es una contact list de puta madre
-          Aqui vamos a generar un conflicto to loco
-        </a>
+        <p style={{color: "white"}}>
+         texto: {text}
+        </p>
+       
       </header>
     </div>
   );
