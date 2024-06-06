@@ -15,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          Esto es una contact list de puta madre
           Aqui vamos a generar un conflicto to loco
         </a>
       </header>
