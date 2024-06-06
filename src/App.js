@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contact List
+          Aqui vamos a generar un conflicto to loco
         </a>
       </header>
     </div>
