@@ -17,7 +17,7 @@ function App() {
         <p>
           <input onChange={handleChange} value={text} />
         </p>
-        <p style={{ color: "white" }}>texto: {text}</p>
+        <p style={{ color: "white" }}>Variacion de texto: {text}</p>
       </header>
     </div>
   );
